@@ -7,7 +7,7 @@ function Nav() {
       <div className="row pt-3">
         <div className="col-lg-4 col-md-3 col-sm-4 col-5">
           <div className="head-container1">
-            <span className="p-3"><FontAwesomeIcon icon={['fa', 'bars']} size="1x" /></span>
+            <span className="p-3 head1-sub"><FontAwesomeIcon icon={['fa', 'bars']} size="1x" /></span>
             <Link to="/">
             <img style={{ height: 30}} src="/images/logo3.jpg" alt=""/>
             </Link>
@@ -22,7 +22,7 @@ function Nav() {
         <div className="col-lg-4 col-md-5 col-sm-7 col-7">
           <div className="head-container3">
             <ul>
-            <li className=" p-2 m-1 head-container2-sub">
+            <li className=" p-2 m-1 head-container2-search">
                 <span className="p-2"><FontAwesomeIcon icon={['fa', 'search']} size="1x" /></span>
               </li>
               <li className=" p-2 m-1 ">

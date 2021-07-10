@@ -38,14 +38,14 @@
 }
 
 }
-.head-container2-sub{
+.head-container2-search{
   display: none !important;
 }
 @media screen and (max-width: 767px) {
  .head-container2-col{
    display: none;
  }
- .head-container2-sub{
+ .head-container2-search{
    display: inline!important;
  }
  }
@@ -54,10 +54,17 @@
     margin: 0;
     padding: 0.05rem !important;
   }
+
+}
+@media screen and (max-width: 457px) {
+  .head1-sub{
+    display: none!important;
+  }
+  .head3-sub{
+    display: none!important;
   }
 
-
-
+}
 .head-container3{
   float: right;
 }
